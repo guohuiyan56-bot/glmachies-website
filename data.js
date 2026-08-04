@@ -396,54 +396,54 @@ var GT_DATA = {
     "image": "images/factory-workshop.jpg"
   },
   "services": {
-    "title_cn": "设备出口，为何选我们",
-    "title_en": "Why Choose Us",
-    "subtitle_cn": "从技术确认到量产交付，为每台设备保驾护航",
-    "subtitle_en": "From sourcing to delivery, we've got every order covered",
-    "label_cn": "核心优势",
-    "label_en": "Core Advantages",
+    "title_cn": "全链条工业制造能力",
+    "title_en": "Full-Chain Manufacturing",
+    "subtitle_cn": "CNC、焊接、表面处理与质检，自有产线一体化",
+    "subtitle_en": "CNC, welding, finishing & QC under one roof",
+    "label_cn": "技术中心",
+    "label_en": "Technical Center",
     "items": [
       {
-        "icon": "🔍",
-        "title_cn": "精准寻源",
-        "title_en": "Precision Sourcing",
-        "desc_cn": "深入产业带，48 小时内精准匹配 3-5 家优质供应商",
-        "desc_en": "Deep industry sourcing, 3-5 premium suppliers within 48 hours"
+        "icon": "⚙️",
+        "title_cn": "精密机加工",
+        "title_en": "CNC Machining",
+        "desc_cn": "五轴加工中心，公差 ±0.01mm",
+        "desc_en": "5-axis centers, tolerance ±0.01mm"
       },
       {
-        "icon": "🏭",
-        "title_cn": "严选工厂",
-        "title_en": "Factory Auditing",
-        "desc_cn": "实地验厂+资质审查，确保供应商符合国际标准",
-        "desc_en": "On-site audits & qualification checks to meet international standards"
+        "icon": "🔥",
+        "title_cn": "焊接成型",
+        "title_en": "Welding",
+        "desc_cn": "TIG / MIG / 机器人焊接",
+        "desc_en": "TIG / MIG / robotic welding"
+      },
+      {
+        "icon": "🎨",
+        "title_cn": "表面处理",
+        "title_en": "Surface Treatment",
+        "desc_cn": "喷涂、电镀、阳极氧化",
+        "desc_en": "Powder, plating, anodizing"
       },
       {
         "icon": "🔬",
-        "title_cn": "品质管控",
-        "title_en": "Quality Control",
-        "desc_cn": "SGS/BV/Intertek 第三方检测，AQL 抽检标准",
-        "desc_en": "Third-party inspection by SGS/BV/Intertek, AQL sampling"
+        "title_cn": "质量检测",
+        "title_en": "Quality Inspection",
+        "desc_cn": "三坐标 / CMM，出货前 100% 全检",
+        "desc_en": "CMM measurement, 100% pre-ship QC"
       },
       {
-        "icon": "🚢",
-        "title_cn": "全球物流",
-        "title_en": "Global Logistics",
-        "desc_cn": "海运/空运/铁路多式联运，DDP 门到门服务",
-        "desc_en": "Sea/air/rail multimodal, DDP door-to-door delivery"
+        "icon": "📐",
+        "title_cn": "工程评审",
+        "title_en": "Engineering Review",
+        "desc_cn": "图纸评审、DFM 与打样确认",
+        "desc_en": "Drawing review, DFM & prototyping"
       },
       {
-        "icon": "💰",
-        "title_cn": "金融支持",
-        "title_en": "Trade Finance",
-        "desc_cn": "信用证、TT、OA 多种结算方式，信用保险保障",
-        "desc_en": "L/C, T/T, O/A payment terms with credit insurance"
-      },
-      {
-        "icon": "🎯",
-        "title_cn": "定制开发",
-        "title_en": "Custom Development",
-        "desc_cn": "OEM/ODM 深度定制，从设计到量产全程协同",
-        "desc_en": "Deep OEM/ODM customization from design to mass production"
+        "icon": "🌐",
+        "title_cn": "全球发货",
+        "title_en": "Global Shipping",
+        "desc_cn": "多式联运，DDP 门到门",
+        "desc_en": "Multimodal, DDP door-to-door"
       }
     ]
   },
