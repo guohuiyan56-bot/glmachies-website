@@ -1436,12 +1436,30 @@
 
   <!-- ===== 合作伙伴 ===== -->
   <section class="sec" id="partners" style="padding:80px 0;background:var(--c-bg-alt)">
-    <div class="container reveal reveal-scale">
-      <div class="sec-label" id="partnersLabel"></div>
-      <h2 class="sec-title" id="partnersTitle" style="margin-bottom:48px"></h2>
-    </div>
-    <div class="partners-scroll">
-      <div class="partners-track" id="partnersTrack"></div>
+    <div class="container">
+      <style id="market-mach">
+        .market-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:30px}
+        .market-card{background:#fff;border:1px solid rgba(46,74,107,.12);border-radius:14px;padding:20px 22px;transition:transform .3s,box-shadow .3s}
+        .market-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(46,74,107,.12)}
+        .market-region{font-family:'Oswald',sans-serif;font-weight:700;font-size:1rem;color:#2E4A6B;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+        .market-region::before{content:'';width:8px;height:8px;border-radius:2px;background:#2E4A6B}
+        .market-tags{display:flex;flex-wrap:wrap;gap:6px}
+        .market-tag{font-size:.78rem;color:#5C6B7A;background:rgba(46,74,107,.06);border-radius:6px;padding:3px 9px}
+        @media(max-width:900px){.market-grid{grid-template-columns:repeat(2,1fr)}}
+      </style>
+      <div class="sec-label reveal reveal-up">Global Reach</div>
+      <h2 class="sec-title reveal reveal-up delay-1">设备出口到这些市场</h2>
+      <p class="sec-subtitle reveal reveal-up delay-2">40+ 国家，本地合规与多式联运一站到位</p>
+      <div class="market-grid reveal-stagger">
+        <div class="market-card"><div class="market-region">Europe</div><div class="market-tags"><span class="market-tag">Germany</span><span class="market-tag">Italy</span><span class="market-tag">France</span><span class="market-tag">Poland</span></div></div>
+        <div class="market-card"><div class="market-region">North America</div><div class="market-tags"><span class="market-tag">USA</span><span class="market-tag">Canada</span><span class="market-tag">Mexico</span></div></div>
+        <div class="market-card"><div class="market-region">Middle East</div><div class="market-tags"><span class="market-tag">UAE</span><span class="market-tag">Saudi</span><span class="market-tag">Qatar</span><span class="market-tag">Israel</span></div></div>
+        <div class="market-card"><div class="market-region">Oceania</div><div class="market-tags"><span class="market-tag">Australia</span><span class="market-tag">New Zealand</span></div></div>
+        <div class="market-card"><div class="market-region">East Asia</div><div class="market-tags"><span class="market-tag">Japan</span><span class="market-tag">Korea</span></div></div>
+        <div class="market-card"><div class="market-region">SE Asia</div><div class="market-tags"><span class="market-tag">Singapore</span><span class="market-tag">Malaysia</span><span class="market-tag">Thailand</span><span class="market-tag">Vietnam</span></div></div>
+        <div class="market-card"><div class="market-region">South America</div><div class="market-tags"><span class="market-tag">Brazil</span><span class="market-tag">Chile</span></div></div>
+        <div class="market-card"><div class="market-region">Africa</div><div class="market-tags"><span class="market-tag">South Africa</span><span class="market-tag">Egypt</span></div></div>
+      </div>
     </div>
   </section>
 
