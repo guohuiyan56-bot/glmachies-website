@@ -1093,29 +1093,31 @@
     }
   </style>
 <style id="industrial-theme">
-/* ===== 机械站 · 深炭钢蓝金属工业风覆盖 ===== */
-.hero{background:#0E1116;}
-.hero::after{opacity:1;background-image:linear-gradient(rgba(46,74,107,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(46,74,107,.10) 1px,transparent 1px);background-size:44px 44px;mix-blend-mode:normal;}
-.hero-bg::before{background:radial-gradient(ellipse at 22% 35%,rgba(46,74,107,.28) 0%,transparent 55%),radial-gradient(ellipse at 78% 30%,rgba(232,118,45,.12) 0%,transparent 55%);}
-.hero-visual .hero-gear{position:absolute;inset:0;margin:auto;width:62%;height:62%;opacity:.5;animation:spin 36s linear infinite;}
+/* ===== 机械站 · 浅钢蓝工业风（明亮版） ===== */
+.hero{background:linear-gradient(135deg,#EAF1F8 0%,#F4F6F9 55%,#E4ECF5 100%);}
+.hero::after{opacity:1;background-image:linear-gradient(rgba(46,74,107,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(46,74,107,.07) 1px,transparent 1px);background-size:44px 44px;mix-blend-mode:normal;}
+.hero-bg::before{background:radial-gradient(ellipse at 22% 35%,rgba(46,74,107,.18) 0%,transparent 55%),radial-gradient(ellipse at 78% 30%,rgba(232,118,45,.12) 0%,transparent 55%);}
+.hero-visual .hero-gear{position:absolute;inset:0;margin:auto;width:62%;height:62%;opacity:.3;animation:spin 36s linear infinite;}
 .nav-site-title,.sec-title,.stats-num,.hero-title,.about-text h3,.contact-info h3,.content-heading,.cat-name,.svc-title,.step-num,.top-logo,.about-img-badge-val,.sidebar-promo-title,.preloader-logo,.partner-item{font-family:var(--font-display);letter-spacing:.5px;}
-.prod-card{border:1px solid rgba(255,255,255,.10);}
-.prod-card:hover{box-shadow:0 12px 36px rgba(0,0,0,.5),0 0 30px rgba(232,118,45,.16);}
-.svc-card:hover{box-shadow:0 12px 36px rgba(0,0,0,.5),0 0 30px rgba(232,118,45,.16);}
-::-webkit-scrollbar-thumb{background:#3D5A7A}
-::-webkit-scrollbar-track{background:#14171C}
-.sec-orb{background:radial-gradient(circle,var(--c-primary),transparent 70%);opacity:.10}
-.trade-banner-overlay{background:linear-gradient(to right,rgba(8,11,16,.92),rgba(8,11,16,.55),rgba(8,11,16,.85));}
-.trade-banner img{filter:brightness(.5) saturate(.85);}
-.contact-visual::after{background:linear-gradient(135deg,rgba(46,74,107,.38),transparent 60%);}
-.footer{background:#0E1116;}
-.header{background:rgba(14,17,22,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.10);}
-.header-logo{color:#E8ECF1;}
+.prod-card{border:1px solid var(--color-border);}
+.prod-card:hover{box-shadow:0 12px 36px rgba(46,74,107,.16),0 0 30px rgba(232,118,45,.12);}
+.svc-card:hover{box-shadow:0 12px 36px rgba(46,74,107,.16),0 0 30px rgba(232,118,45,.12);}
+.product-img,.product-img-placeholder{background:#E9EEF4;}
+.product-cat{background:rgba(46,74,107,.10);color:var(--color-primary);}
+::-webkit-scrollbar-thumb{background:#9DB2C7}
+::-webkit-scrollbar-track{background:#E9EEF4}
+.sec-orb{background:radial-gradient(circle,var(--color-primary),transparent 70%);opacity:.14}
+.trade-banner-overlay{background:linear-gradient(to right,rgba(30,58,92,.62),rgba(30,58,92,.30),rgba(30,58,92,.55));}
+.trade-banner img{filter:brightness(.92) saturate(.95);}
+.contact-visual::after{background:linear-gradient(135deg,rgba(46,74,107,.30),transparent 60%);}
+.footer{background:var(--color-bg-dark);}
+.header{background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--color-border);}
+.header-logo{color:#1A2430;}
 .header-logo span{color:#E8762D;}
-.header-nav a{color:#9BA7B4;}
-.header-nav a:hover,.header-nav a.active{color:#E8ECF1;background:rgba(255,255,255,.08);}
-.btn-white{background:#1E2530;color:#E8ECF1;}
-.btn-white:hover{background:#232B36;}
+.header-nav a{color:#4A5A6B;}
+.header-nav a:hover,.header-nav a.active{color:#1A2430;background:rgba(46,74,107,.08);}
+.btn-white{background:#FFFFFF;color:#1A2430;border:1px solid var(--color-border);}
+.btn-white:hover{background:#F0F4F9;}
 </style>
 </head>
 <body>
