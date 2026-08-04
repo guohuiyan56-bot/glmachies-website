@@ -1363,12 +1363,61 @@
     </div>
   </section>
 
-  <!-- ===== 客户评价 + 合作伙伴 ===== -->
-  <section class="sec" id="testimonials">
+  <!-- ===== 客户评价：认证与交付案例 ===== -->
+  <section class="sec" id="testimonials" style="background:var(--c-bg-alt)">
     <div class="container">
-      <div class="sec-label reveal reveal-up" id="testLabel"></div>
-      <h2 class="sec-title reveal reveal-up delay-1" id="testTitle"></h2>
-      <div class="testimonial-grid reveal-stagger" id="testGrid"></div>
+      <style id="cert-mach">
+        .cert-head{text-align:center}
+        .cert-sub{color:#5C6B7A;font-size:.95rem;margin-top:10px}
+        .cert-wall{display:grid;grid-template-columns:repeat(6,1fr);gap:14px;margin:34px 0 46px}
+        .cert-badge{background:#fff;border:1px solid rgba(46,74,107,.14);border-radius:14px;padding:18px 10px;text-align:center;transition:transform .3s,box-shadow .3s}
+        .cert-badge:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(46,74,107,.14)}
+        .cert-ring{width:52px;height:52px;margin:0 auto 10px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Oswald',sans-serif;font-weight:700;font-size:.82rem;color:#fff;background:linear-gradient(150deg,#2E4A6B,#1E3A5C);letter-spacing:.5px}
+        .cert-name{font-size:.8rem;font-weight:700;color:#1A2430}
+        .cert-desc{font-size:.7rem;color:#6B7888;margin-top:2px}
+        .case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+        .case-card{background:#fff;border:1px solid rgba(46,74,107,.12);border-left:4px solid #2E4A6B;border-radius:14px;padding:26px 24px;transition:transform .3s,box-shadow .3s}
+        .case-card:hover{transform:translateY(-4px);box-shadow:0 16px 34px rgba(46,74,107,.14)}
+        .case-tag{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#2E4A6B;background:rgba(46,74,107,.08);padding:4px 10px;border-radius:20px;margin-bottom:14px}
+        .case-title{font-size:1.05rem;font-weight:700;color:#1A2430;margin-bottom:10px}
+        .case-desc{font-size:.86rem;color:#5C6B7A;line-height:1.65;margin-bottom:16px}
+        .case-metric{font-family:'Oswald',sans-serif;font-size:1.5rem;font-weight:700;color:#2E4A6B}
+        .case-metric span{font-size:.78rem;color:#6B7888;font-weight:500;margin-left:6px}
+        @media(max-width:900px){.cert-wall{grid-template-columns:repeat(3,1fr)}.case-grid{grid-template-columns:1fr}}
+      </style>
+      <div class="cert-head">
+        <div class="sec-label reveal reveal-up">Certified & Delivered</div>
+        <h2 class="sec-title reveal reveal-up delay-1">标准、认证与真实交付案例</h2>
+        <div class="cert-sub">从材料到出货，每一环都经得起审核</div>
+      </div>
+      <div class="cert-wall reveal reveal-up">
+        <div class="cert-badge"><div class="cert-ring">ISO</div><div class="cert-name">ISO 9001</div><div class="cert-desc">质量管理体系</div></div>
+        <div class="cert-badge"><div class="cert-ring">CE</div><div class="cert-name">CE</div><div class="cert-desc">欧盟合规</div></div>
+        <div class="cert-badge"><div class="cert-ring">ANSI</div><div class="cert-name">ANSI</div><div class="cert-desc">美国标准</div></div>
+        <div class="cert-badge"><div class="cert-ring">RoHS</div><div class="cert-name">RoHS</div><div class="cert-desc">有害物质限制</div></div>
+        <div class="cert-badge"><div class="cert-ring">ISO14</div><div class="cert-name">ISO 14001</div><div class="cert-desc">环境管理</div></div>
+        <div class="cert-badge"><div class="cert-ring">IATF</div><div class="cert-name">IATF 16949</div><div class="cert-desc">汽车供应链</div></div>
+      </div>
+      <div class="case-grid reveal-stagger">
+        <div class="case-card">
+          <span class="case-tag">Automotive</span>
+          <div class="case-title">新能源电驱壳体</div>
+          <div class="case-desc">为欧洲车企量产铝合金电驱壳体，全流程 CNC 加工 + 三坐标全检。</div>
+          <div class="case-metric">±0.01<span>mm 公差</span></div>
+        </div>
+        <div class="case-card">
+          <span class="case-tag">Machinery</span>
+          <div class="case-title">食品级不锈钢机架</div>
+          <div class="case-desc">为北美食品设备厂定制焊接机架，TIG 满焊 + 表面钝化处理。</div>
+          <div class="case-metric">12,000<span>pcs / 月</span></div>
+        </div>
+        <div class="case-card">
+          <span class="case-tag">Export</span>
+          <div class="case-title">全球多式联运交付</div>
+          <div class="case-desc">40+ 国家 DDP 门到门，出货前 100% 质检与出口级防护包装。</div>
+          <div class="case-metric">40+<span>出口国</span></div>
+        </div>
+      </div>
     </div>
   </section>
 
