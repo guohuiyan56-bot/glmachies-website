@@ -448,47 +448,54 @@ var GT_DATA = {
     ]
   },
   "process": {
-    "label_cn": "合作流程",
+    "label_cn": "交付流程",
     "label_en": "Our Process",
-    "title_cn": "五步，把设备稳稳交付",
-    "title_en": "5 Simple Steps to Source",
-    "subtitle_cn": "从图纸确认到装柜出海，全程透明可追溯",
-    "subtitle_en": "From inquiry to delivery — fully transparent process",
+    "title_cn": "六步，把设备稳稳交付",
+    "title_en": "6 Steps to Deliver Your Equipment",
+    "subtitle_cn": "从询盘到装柜出海，全程透明可追溯",
+    "subtitle_en": "From inquiry to container — fully transparent",
     "steps": [
       {
         "num": "01",
         "title_cn": "提交需求",
-        "title_en": "Submit Inquiry",
-        "desc_cn": "告诉我们您要找的产品、规格和数量",
-        "desc_en": "Tell us what you need — product, spec & quantity"
+        "title_en": "Inquiry",
+        "desc_cn": "图纸 / 规格 / 数量，一键询盘",
+        "desc_en": "Drawing, spec & qty in one inquiry"
       },
       {
         "num": "02",
-        "title_cn": "精准匹配",
-        "title_en": "Supplier Match",
-        "desc_cn": "48 小时内推荐 3-5 家优质供应商",
-        "desc_en": "3-5 vetted suppliers within 48 hours"
+        "title_cn": "工程评审",
+        "title_en": "Engineering Review",
+        "desc_cn": "DFM 评审与打样方案",
+        "desc_en": "DFM review & prototyping plan"
       },
       {
         "num": "03",
         "title_cn": "打样确认",
-        "title_en": "Sample & Confirm",
-        "desc_cn": "样品寄送、品质确认、价格谈判",
-        "desc_en": "Sample delivery, quality check & price negotiation"
+        "title_en": "Prototyping",
+        "desc_cn": "样品制作与确认",
+        "desc_en": "Sample build & confirmation"
       },
       {
         "num": "04",
-        "title_cn": "生产质检",
-        "title_en": "Production & QC",
-        "desc_cn": "全程跟单，第三方质检，实时反馈",
-        "desc_en": "Live order tracking, 3rd-party QC, real-time updates"
+        "title_cn": "量产制造",
+        "title_en": "Mass Production",
+        "desc_cn": "CNC / 焊接 / 表面处理一体化",
+        "desc_en": "CNC, welding & finishing in-house"
       },
       {
         "num": "05",
-        "title_cn": "交付物流",
-        "title_en": "Delivery & Logistics",
-        "desc_cn": "安排最优物流方案，门到门送达",
-        "desc_en": "Optimized logistics, door-to-door delivery"
+        "title_cn": "出货质检",
+        "title_en": "QC & Inspect",
+        "desc_cn": "三坐标全检，出货报告",
+        "desc_en": "CMM inspection, ship report"
+      },
+      {
+        "num": "06",
+        "title_cn": "全球发货",
+        "title_en": "Global Shipping",
+        "desc_cn": "多式联运，DDP 门到门",
+        "desc_en": "Multimodal, DDP door-to-door"
       }
     ]
   },
