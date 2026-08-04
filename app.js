@@ -383,6 +383,10 @@
     var imgContent = p.image
       ? '<img src="' + p.image + '" alt="' + dc(p, 'name') + '" style="width:100%;height:100%;object-fit:cover;" loading="lazy" decoding="async">'
       : '<div class="prod-card-img-placeholder">' + (catObj ? catObj.icon || '📦' : '📦') + '</div>';
+    var spec = prodSpec(p);
+    var apps = prodApps(p);
+    var appHtml = '';
+    for (var ai = 0; ai < apps.length; ai++) appHtml += '<span class="prod-app">' + apps[ai] + '</span>';
     return '' +
       '<div class="prod-card delay-' + ((idx % 6) + 1) + '" data-cat="' + p.category + '">' +
         '<div class="prod-card-img-wrap">' +
@@ -396,8 +400,33 @@
           '<span class="prod-card-cat">' + catName + '</span>' +
           '<div class="prod-card-name">' + dc(p, 'name') + '</div>' +
           '<div class="prod-card-desc">' + dc(p, 'desc') + '</div>' +
+          '<div class="prod-spec"><span class="prod-spec-ico">&#9881;</span>' + spec + '</div>' +
+          '<div class="prod-apps">' + appHtml + '</div>' +
         '</div>' +
       '</div>';
+  }
+
+  function prodSpec(p) {
+    var t = (dc(p, 'name') + ' ' + dc(p, 'desc')).toLowerCase();
+    if (t.indexOf('cnc') >= 0) return 'CNC · ±0.01mm';
+    if (t.indexOf('焊') >= 0 || t.indexOf('weld') >= 0) return 'TIG / MIG Welded';
+    if (t.indexOf('不锈钢') >= 0 || t.indexOf('stainless') >= 0) return '304 Stainless Steel';
+    if (t.indexOf('铝') >= 0 || t.indexOf('alumin') >= 0) return 'Aluminum Alloy';
+    if (t.indexOf('塑') >= 0 || t.indexOf('mold') >= 0 || t.indexOf('inject') >= 0) return 'Precision Molded';
+    if (t.indexOf('冲压') >= 0 || t.indexOf('stamp') >= 0) return 'Stamped Parts';
+    return 'Built to Spec';
+  }
+  function prodApps(p) {
+    var t = (dc(p, 'name') + ' ' + dc(p, 'desc')).toLowerCase();
+    var a = [];
+    if (t.indexOf('汽车') >= 0 || t.indexOf('auto') >= 0 || t.indexOf('车') >= 0) a.push('Automotive');
+    if (t.indexOf('食品') >= 0 || t.indexOf('food') >= 0) a.push('Food Grade');
+    if (t.indexOf('医疗') >= 0 || t.indexOf('medical') >= 0) a.push('Medical');
+    if (t.indexOf('机械') >= 0 || t.indexOf('machin') >= 0) a.push('Machinery');
+    if (t.indexOf('航空') >= 0 || t.indexOf('aero') >= 0) a.push('Aerospace');
+    if (t.indexOf('能源') >= 0 || t.indexOf('energy') >= 0) a.push('Energy');
+    if (a.length === 0) a.push('Industrial');
+    return a;
   }
 
   /* ===== 右侧产品网格 ===== */
