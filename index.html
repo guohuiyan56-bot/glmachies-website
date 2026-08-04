@@ -81,24 +81,24 @@
        CSS Variables: 改颜色、字号、间距在这里
     ============================================================ */
     :root {
-      --c-primary: #2E4A6B;        /* 深棕主色（与目录册一致） */
-      --c-primary-h: #3E6DA0;      /* 深棕 hover */
-      --c-primary-d: #3D5A7A;      /* 中棕 */
-      --c-primary-glow: rgba(232,118,45,0.35); /* 金色辉光 */
-      --c-accent: #E8762D;         /* 金色点缀（与目录册一致） */
+      --c-primary: #2E4A6B;        /* 钢蓝主色（工业风） */
+      --c-primary-h: #3E6DA0;      /* 钢蓝 hover */
+      --c-primary-d: #3D5A7A;      /* 中钢蓝 */
+      --c-primary-glow: rgba(232,118,45,0.30); /* 工业橙辉光 */
+      --c-accent: #E8762D;         /* 工业橙点缀 */
       --c-accent-h: #F08A3E;
-      --c-bg: #14171C;             /* 米色页底（与目录册一致） */
-      --c-bg-alt: #1B2129;         /* 交替区块浅米 */
-      --c-bg-card: #1E2530;         /* 卡片白 */
-      --c-bg-surface: #232B36;      /* 表单/输入底 */
-      --c-bg-hero: #161A21;        /* 暖米 hero 底 */
-      --c-text: #E8ECF1;           /* 深棕正文 */
-      --c-text-dim: #9BA7B4;       /* 辅助文字 */
-      --c-text-muted: #6B7682;     /* 更弱文字 */
-      --c-border: rgba(255,255,255,0.12);
-      --c-border-hover: rgba(255,255,255,0.40);
-      --c-glass: rgba(247,243,237,0.82);
-      --c-glass-hover: rgba(255,255,255,0.92);
+      --c-bg: #F4F6F9;             /* 浅冷灰页底 */
+      --c-bg-alt: #E9EEF4;         /* 交替区块浅钢蓝 */
+      --c-bg-card: #FFFFFF;        /* 白卡片 */
+      --c-bg-surface: #E3E9F0;     /* 表单/输入底 浅钢蓝 */
+      --c-bg-hero: #EAF1F8;        /* 浅钢蓝 hero 底 */
+      --c-text: #1A2430;           /* 深岩灰正文 */
+      --c-text-dim: #5B6B7C;       /* 辅助文字 */
+      --c-text-muted: #8A97A5;     /* 更弱文字 */
+      --c-border: rgba(46,74,107,0.14);
+      --c-border-hover: rgba(46,74,107,0.35);
+      --c-glass: rgba(255,255,255,0.85);
+      --c-glass-hover: rgba(255,255,255,0.95);
 
       --font-body: 'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif;
       --font-display: 'Oswald', 'Noto Sans SC', sans-serif;
@@ -108,9 +108,9 @@
       --radius-lg: 20px;
       --radius-xl: 28px;
 
-      --shadow-sm: 0 2px 8px rgba(255,255,255,0.08);
-      --shadow-md: 0 8px 32px rgba(255,255,255,0.12);
-      --shadow-lg: 0 20px 60px rgba(255,255,255,0.16);
+      --shadow-sm: 0 2px 8px rgba(46,74,107,0.08);
+      --shadow-md: 0 8px 32px rgba(46,74,107,0.12);
+      --shadow-lg: 0 20px 60px rgba(46,74,107,0.16);
       --shadow-glow: 0 0 40px var(--c-primary-glow);
 
       --max-w: 1320px;
@@ -133,7 +133,7 @@
     img{max-width:100%;display:block}
     ul,ol{list-style:none}
     button{cursor:pointer;font-family:inherit;border:none;outline:none}
-    ::selection{background:var(--c-primary);color:#14171C}
+    ::selection{background:var(--c-primary);color:#FFFFFF}
 
     /* ===== Scrollbar（咖色） ===== */
     ::-webkit-scrollbar{width:5px}
@@ -282,7 +282,7 @@
     .nav-lang:hover{color:var(--c-primary);border-color:var(--c-primary);background:rgba(255,255,255,0.12)}
     .nav-cta{
       margin-left:14px;padding:10px 22px;border-radius:22px;
-      background:var(--c-primary);color:#14171C;font-size:0.84rem;font-weight:600;
+      background:var(--c-primary);color:#FFFFFF;font-size:0.84rem;font-weight:600;
       transition:all 0.3s;
     }
     .nav-cta:hover{background:var(--c-primary-h);transform:translateY(-1px);box-shadow:0 4px 20px var(--c-primary-glow)}
@@ -375,7 +375,7 @@
       border-radius:50px;font-size:0.92rem;font-weight:600;
       transition:all 0.35s var(--ease);letter-spacing:0.3px;
     }
-    .btn-primary{background:var(--c-primary);color:#14171C}
+    .btn-primary{background:var(--c-primary);color:#FFFFFF}
     .btn-primary:hover{background:var(--c-primary-h);transform:translateY(-2px);box-shadow:0 8px 30px var(--c-primary-glow)}
     .btn-outline{
       background:transparent;color:var(--c-text);
@@ -413,7 +413,7 @@
     }
     .cat-tab:hover{border-color:var(--c-primary);color:var(--c-primary)}
     .cat-tab.active{
-      background:var(--c-primary);color:#14171C;border-color:var(--c-primary);
+      background:var(--c-primary);color:#FFFFFF;border-color:var(--c-primary);
       box-shadow:0 4px 20px var(--c-primary-glow);
     }
 
@@ -457,7 +457,7 @@
     }
     .search-clear.visible{display:flex}
     .search-clear:hover{
-      background:var(--c-primary);color:#14171C;
+      background:var(--c-primary);color:#FFFFFF;
       transform:scale(1.1);
     }
     .search-info{
@@ -486,7 +486,7 @@
       background:rgba(255,255,255,0.1);
     }
     .search-tag.active{
-      background:var(--c-primary);color:#14171C;
+      background:var(--c-primary);color:#FFFFFF;
       border-color:var(--c-primary);
     }
     .prod-no-result{
@@ -535,7 +535,7 @@
     .prod-card:hover .prod-card-overlay{opacity:1}
     .prod-card-quick{
       margin:0 12px 12px 0;padding:7px 16px;border-radius:50px;
-      background:var(--c-primary);color:#14171C;font-size:0.72rem;font-weight:600;
+      background:var(--c-primary);color:#FFFFFF;font-size:0.72rem;font-weight:600;
       transform:translateY(12px);transition:all 0.4s 0.08s var(--ease-bounce);
     }
     .prod-card:hover .prod-card-quick{transform:translateY(0)}
@@ -681,7 +681,7 @@
     .testimonial-avatar{
       width:44px;height:44px;border-radius:50%;
       background:linear-gradient(135deg,var(--c-primary),var(--c-primary-d));
-      display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1rem;color:#14171C;
+      display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1rem;color:#FFFFFF;
     }
     .testimonial-name{font-weight:600;font-size:0.9rem}
     .testimonial-role{font-size:0.78rem;color:var(--c-text-muted)}
@@ -743,7 +743,7 @@
     .form-group textarea{min-height:130px;resize:vertical}
     .form-submit{
       width:100%;padding:16px;border-radius:50px;background:var(--c-primary);
-      color:#14171C;font-size:0.95rem;font-weight:700;border:none;
+      color:#FFFFFF;font-size:0.95rem;font-weight:700;border:none;
       cursor:pointer;transition:all 0.3s;letter-spacing:0.3px;
     }
     .form-submit:hover{background:var(--c-primary-h);box-shadow:var(--shadow-glow);transform:translateY(-2px)}
@@ -932,7 +932,7 @@
     .top-search-input::placeholder{color:var(--c-text-muted)}
     .top-search-btn{
       padding:13px 28px;border-radius:0 var(--radius-sm) var(--radius-sm) 0;
-      background:var(--c-primary);color:#14171C;font-weight:700;font-size:0.9rem;
+      background:var(--c-primary);color:#FFFFFF;font-weight:700;font-size:0.9rem;
       transition:all .3s;white-space:nowrap;
     }
     .top-search-btn:hover{background:var(--c-primary-h);transform:translateY(-1px);box-shadow:var(--shadow-glow)}
@@ -941,7 +941,7 @@
     .nav-categories-btn{
       display:inline-flex;align-items:center;gap:8px;
       padding:10px 22px;border-radius:var(--radius-sm);
-      background:var(--c-primary);color:#14171C;font-weight:700;
+      background:var(--c-primary);color:#FFFFFF;font-weight:700;
       font-size:0.86rem;cursor:pointer;transition:all .3s;
       margin-right:16px;
     }
@@ -958,7 +958,7 @@
     }
     .sidebar-header{
       display:flex;align-items:center;gap:10px;
-      padding:16px 20px;background:var(--c-primary);color:#14171C;
+      padding:16px 20px;background:var(--c-primary);color:#FFFFFF;
       font-weight:800;font-size:0.95rem;cursor:pointer;
       border-radius:var(--radius-md) var(--radius-md) 0 0;
     }
