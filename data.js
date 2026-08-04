@@ -499,6 +499,20 @@ var GT_DATA = {
       }
     ]
   },
+  "banners": [
+    {
+      "title_cn": "精密制造 · 按图交付",
+      "title_en": "Precision Manufacturing · Built to Spec",
+      "sub_cn": "CNC 加工、焊接、表面处理一体化，从打样到量产全程可控",
+      "sub_en": "CNC machining, welding & finishing in-house — from prototype to full production"
+    },
+    {
+      "title_cn": "品质管控 · 全程可追溯",
+      "title_en": "Quality Control · Fully Traceable",
+      "sub_cn": "SGS / BV 第三方验货，AQL 国际抽检标准，出厂质检报告",
+      "sub_en": "SGS/BV third-party inspection, AQL standards, full QC reports"
+    }
+  ],
   "testimonials": {
     "label_cn": "客户评价",
     "label_en": "Testimonials",
