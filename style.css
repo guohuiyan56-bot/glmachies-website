@@ -5,16 +5,16 @@
 
 /* ===== CSS 变量（改颜色/字号主要在这里） ===== */
 :root {
-  --color-primary:   #2E4A6B;    /* 主色 —— 按钮、链接、强调 */
+  --color-primary:   #2E4A6B;    /* 钢蓝主色 —— 按钮、链接、强调 */
   --color-primary-h: #3E6DA0;    /* 主色深 —— hover 状态 */
-  --color-accent:    #E8762D;    /* 强调色 —— 标签、角标 */
-  --color-bg:        #14171C;    /* 页面背景 */
-  --color-bg-alt:    #1B2129;    /* 浅灰背景 —— 交替区块 */
-  --color-bg-dark:   #2E4A6B;    /* 深色背景 —— 页脚 */
-  --color-text:      #E8ECF1;    /* 正文颜色 */
-  --color-text-light:#9BA7B4;    /* 辅助文字 */
-  --color-text-white:#14171C;    /* 深底白字 */
-  --color-border:    #232B36;    /* 边框 */
+  --color-accent:    #E8762D;    /* 工业橙强调 —— 标签、角标 */
+  --color-bg:        #F4F6F9;    /* 页面背景 —— 浅冷灰 */
+  --color-bg-alt:    #E9EEF4;    /* 交替区块 —— 浅钢蓝 */
+  --color-bg-dark:   #1E3A5C;    /* 页脚 —— 深钢蓝（非黑） */
+  --color-text:      #1A2430;    /* 正文 —— 深岩灰 */
+  --color-text-light:#5B6B7C;    /* 辅助文字 */
+  --color-text-white:#FFFFFF;    /* 深底白字 */
+  --color-border:    #D8E0EA;    /* 边框 —— 浅 */
   --color-success:   #10b981;    /* 成功 */
   --color-danger:    #ef4444;    /* 警告 */
 
