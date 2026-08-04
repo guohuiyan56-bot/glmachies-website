@@ -8,7 +8,7 @@ var GT_DATA = {
     "email": "info@greenlineint.com",
     "phone": "+86 136-3224-2800",
     "whatsapp": "+86 136-3224-2800",
-    "wechat": "Victoria Guo  A13632242800",
+    "wechat": "A13632242800",
     "address_cn": "广州市越秀区环市中路316号金鹰大厦7楼711",
     "address_en": "Room 711, 7F, Golden Eagle Building, 316 Huanshi Middle Rd, Yuexiu, Guangzhou, China",
     "year": 2015
@@ -104,6 +104,12 @@ var GT_DATA = {
   ],
   "categories": [
     {
+      "id": "gifts",
+      "name_cn": "礼品工艺品",
+      "name_en": "Gift & Crafts",
+      "icon": "🎁"
+    },
+    {
       "id": "machinery",
       "name_cn": "工业机械",
       "name_en": "Machinery",
@@ -114,6 +120,12 @@ var GT_DATA = {
       "name_cn": "五金制品",
       "name_en": "Hardware",
       "icon": "🔩"
+    },
+    {
+      "id": "signage",
+      "name_cn": "展示与标识",
+      "name_en": "Display & Signage",
+      "icon": "🪧"
     },
     {
       "id": "shelves",
@@ -350,38 +362,38 @@ var GT_DATA = {
     }
   ],
   "about": {
-    "label_cn": "关于我们",
-    "label_en": "About Us",
-    "badge_val": "11+",
-    "badge_lbl_cn": "年外贸深耕",
-    "badge_lbl_en": "Years Excellence",
-    "heading_cn": "专注工业设备的\n可靠制造伙伴",
-    "heading_en": "Your Trusted\nGlobal Trade Partner",
-    "p1_cn": "广州本润贸易公司成立于 2015 年，总部位于中国广州。11 年来我们专注于连接全球优质制造商与国际买家，提供从选品、验厂、质检到物流的一站式外贸服务。",
-    "p1_en": "Founded in 2015 and headquartered in Guangzhou, China, Benrun Trading has spent over a decade connecting premium manufacturers with international buyers, offering end-to-end services from sourcing and factory auditing to quality inspection and logistics.",
-    "p2_cn": "我们的供应链网络覆盖 30 多个国家和地区，与超过 500 家经过严格审核的工厂建立了长期合作关系，确保每一笔订单的品质与时效。",
-    "p2_en": "Our supply network spans 30+ countries with 500+ rigorously audited factories, guaranteeing quality and on-time delivery for every order.",
-    "cta_cn": "了解更多",
-    "cta_en": "Learn More",
+    "label_cn": "制造能力",
+    "label_en": "Manufacturing Capability",
+    "badge_val": "±0.01mm",
+    "badge_lbl_cn": "加工公差",
+    "badge_lbl_en": "Machining Tolerance",
+    "heading_cn": "全链条工业\n智造伙伴",
+    "heading_en": "A full-chain\nindustrial workshop",
+    "p1_cn": "从原材料到成品设备，我们集机加工、焊接、表面处理与质检于一体，自有产线保障每一台的精度与一致。",
+    "p1_en": "From raw stock to finished equipment, we machine, weld, finish and inspect in-house — our own line guarantees precision and consistency on every unit.",
+    "p2_cn": "CNC 公差 ±0.01mm、ISO 9001 质量体系、出货前 100% 全检，按您的图纸与标准交付全球。",
+    "p2_en": "CNC tolerance ±0.01mm, ISO 9001 quality system, 100% pre-ship inspection — built to your drawing and standard, shipped worldwide.",
+    "cta_cn": "获取报价",
+    "cta_en": "Request a quote",
     "checks": [
       {
-        "cn": "ISO 9001 质量管理体系",
-        "en": "ISO 9001 Certified"
+        "cn": "自有 CNC 与焊接产线",
+        "en": "In-house CNC & welding"
       },
       {
-        "cn": "SGS / BV 第三方验货",
-        "en": "SGS / BV Inspection"
+        "cn": "ISO 9001 质量体系",
+        "en": "ISO 9001 quality system"
       },
       {
-        "cn": "全程可视化跟单",
-        "en": "Live Order Tracking"
+        "cn": "出货前 100% 全检",
+        "en": "100% pre-ship inspection"
       },
       {
-        "cn": "多语言专属客服",
-        "en": "Multilingual Support"
+        "cn": "支持 OEM / ODM",
+        "en": "OEM / ODM supported"
       }
     ],
-    "image": "images/business-handshake.jpg"
+    "image": "images/factory-workshop.jpg"
   },
   "services": {
     "title_cn": "设备出口，为何选我们",
@@ -536,12 +548,9 @@ var GT_DATA = {
       "Doha College",
       "Bold&Beautiful",
       "VOU",
-      "NCPW",
       "Shell",
-      "Qatar Sun",
       "Qatargas",
-      "Muntajat",
-      "Kaving DDA"
+      "Muntajat"
     ]
   },
   "contact": {
@@ -568,7 +577,7 @@ var GT_DATA = {
         "icon": "💬",
         "label_cn": "微信",
         "label_en": "WeChat",
-        "value": "Victoria Guo  A13632242800"
+        "value": "A13632242800"
       },
       {
         "icon": "📍",
