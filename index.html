@@ -243,7 +243,7 @@
     .nav-links{display:flex;align-items:center;gap:3px}
     .nav-links a{
       padding:9px 20px;border-radius:22px;font-size:0.85rem;font-weight:500;
-      color:#E8ECF1;background:rgba(255,255,255,0.16);
+      color:var(--c-text);background:rgba(46,74,107,0.06);
       transition:all 0.3s var(--ease);
       position:relative;padding-left:32px;
     }
@@ -262,8 +262,8 @@
     /* Active state: white icons */
     .nav-links a.active::before{filter:brightness(0) invert(1);}
     .nav-links a:hover{
-      background:rgba(255,255,255,0.5);
-      box-shadow:0 2px 12px rgba(255,255,255,0.2);
+      background:rgba(46,74,107,0.14);
+      box-shadow:0 2px 12px rgba(46,74,107,0.10);
       transform:translateY(-1px);
     }
     .nav-links a.active{
