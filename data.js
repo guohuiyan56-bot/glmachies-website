@@ -104,12 +104,6 @@ var GT_DATA = {
   ],
   "categories": [
     {
-      "id": "gifts",
-      "name_cn": "礼品工艺品",
-      "name_en": "Gift & Crafts",
-      "icon": "🎁"
-    },
-    {
       "id": "machinery",
       "name_cn": "工业机械",
       "name_en": "Machinery",
