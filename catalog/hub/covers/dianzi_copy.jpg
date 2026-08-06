@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product Catalogues · GREENLINE 2026</title>
+<style>
+  :root{ --gold:#c9a66b; --bg:#f5f2ed; --card:#fff; --line:rgba(0,0,0,.08); --text:#2a2522;
+         --sub:#7a7268; }
+  *,*::before,*::after{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{
+    background:var(--bg); color:var(--text);
+    font-family:"Microsoft YaHei","PingFang SC","Segoe UI",Arial,sans-serif;
+    min-height:100vh;
+  }
+  .wrap{ max-width:1100px; margin:0 auto; padding:48px 20px 64px; }
+  .head{ text-align:center; margin-bottom:44px; }
+  .head h1{ font-size:30px; font-weight:800; color:var(--text); letter-spacing:.04em; }
+  .head p{ color:var(--sub); font-size:13px; margin-top:8px; letter-spacing:.16em; }
+
+  .grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:28px; }
+  @media(min-width:900px){ .grid{ grid-template-columns:repeat(4,1fr); } }
+  @media(max-width:560px){ .grid{ grid-template-columns:1fr; max-width:380px; margin:0 auto; } }
+
+  .card{
+    background:var(--card); border-radius:14px;
+    border:1px solid var(--line);
+    overflow:hidden;
+    box-shadow:0 2px 12px rgba(0,0,0,.06);
+    transition:transform .22s ease, box-shadow .22s ease;
+  }
+  .card:hover{ transform:translateY(-5px); box-shadow:0 14px 36px rgba(0,0,0,.12); }
+
+  .cover-wrap{ position:relative; overflow:hidden; }
+  .cover{
+    width:100%; aspect-ratio:280/375;
+    object-fit:cover; display:block;
+    transition:transform .36s ease;
+  }
+  .card:hover .cover{ transform:scale(1.04); }
+
+  .meta{ padding:16px 18px 18px; }
+  .m-title{ font-size:16px; font-weight:700; line-height:1.4; color:var(--text); }
+  .m-en{ color:var(--sub); font-size:11.5px; margin-top:4px; letter-spacing:.04em; line-height:1.45; }
+  .m-desc{ color:var(--sub); font-size:12px; margin-top:6px; line-height:1.55; opacity:.78; }
+
+  .btn-open{
+    display:inline-flex; align-items:center; gap:4px;
+    margin-top:14px; padding:0;
+    color:var(--gold); font-size:14px; font-weight:600;
+    text-decoration:none; letter-spacing:.06em;
+    transition:gap .2s ease;
+  }
+  .btn-open:hover{ gap:8px; }
+
+  .foot-note{ text-align:center; color:#bbb5ac; font-size:12px; margin-top:52px; letter-spacing:.1em; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="head">
+      <h1>Product Catalogues</h1>
+      <p>2026 Doors · Windows Collection</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <div class="cover-wrap">
+          <img class="cover" src="covers/cast_aluminum.jpg" alt="GREENLINE 2026 铸铝门雕刻图册" loading="lazy">
+        </div>
+        <div class="meta">
+          <div class="m-title">GREENLINE 2026 铸铝门雕刻图册</div>
+          <div class="m-en">2026 CAST ALUMINUM DOOR CATALOGUE</div>
+          <div class="m-desc">铸铝门雕刻图册 · 精雕工艺系列画册。</div>
+          <a class="btn-open" href="https://b2c9e64b26124303ab5b0d30e508820f.bj3.agentos-app.net" target="_blank" rel="noopener">Open  &rsaquo;</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cover-wrap">
+          <img class="cover" src="covers/junli.jpg" alt="GREENLINE 2026 俊利门业电子画册" loading="lazy">
+        </div>
+        <div class="meta">
+          <div class="m-title">GREENLINE 2026 俊利门业电子画册</div>
+          <div class="m-en">2026 JUNLI DOORS E-CATALOGUE</div>
+          <div class="m-desc">俊利门业电子画册 · 入户门与室内门系列。</div>
+          <a class="btn-open" href="https://954672a899374d0d80cb71129c43f9e5.bj4.agentos-app.net" target="_blank" rel="noopener">Open  &rsaquo;</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cover-wrap">
+          <img class="cover" src="covers/furuisi.jpg" alt="GREENLINE 富瑞斯门窗产品画册" loading="lazy">
+        </div>
+        <div class="meta">
+          <div class="m-title">GREENLINE 富瑞斯门窗产品画册</div>
+          <div class="m-en">FURUISI DOORS & WINDOWS CATALOGUE</div>
+          <div class="m-desc">富瑞斯门窗产品画册 · 断桥铝与重型推拉门系列。</div>
+          <a class="btn-open" href="https://9ec8e95081e24682a2a7cec49706c6ba.bj5.agentos-app.net" target="_blank" rel="noopener">Open  &rsaquo;</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cover-wrap">
+          <img class="cover" src="covers/dianzi_copy.jpg" alt="GREENLINE 2026 电子画册" loading="lazy">
+        </div>
+        <div class="meta">
+          <div class="m-title">GREENLINE 2026 电子画册</div>
+          <div class="m-en">2026 E-CATALOGUE</div>
+          <div class="m-desc">2026 电子画册 · 防盗安全门与智能锁系列。</div>
+          <a class="btn-open" href="https://9551bea98b07484089a1128f4783427c.bj8.agentos-app.net" target="_blank" rel="noopener">Open  &rsaquo;</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-note">Click "Open" to browse any catalogue online</div>
+  </div>
+</body>
+</html>
