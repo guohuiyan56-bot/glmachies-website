@@ -95,6 +95,18 @@ window.CATALOGS = [
     "cover_cn": "aussieswitch/cover_cn.webp",
     "cover_en": "aussieswitch/cover_en.webp",
     "pages": 12
+  },
+  {
+    "id": "doors_hub",
+    "folder": "hub",
+    "category": "doors",
+    "title_cn": "门窗产品目录册",
+    "title_en": "Doors & Windows Catalogues",
+    "desc_cn": "铸铝雕刻门 · 俊利门业 · 富瑞斯门窗 · 电子画册 — 4 册门窗产品电子目录",
+    "desc_en": "Cast aluminum carved doors · Junli doors · Furuisi windows & doors — 4 catalogues",
+    "cover_cn": "hub/covers/cast_aluminum.jpg",
+    "cover_en": "hub/covers/cast_aluminum.jpg",
+    "pages": 482
   }
 ];
 
@@ -110,5 +122,9 @@ window.CATALOG_CATS = {
   "shelves": {
     "cn": "货架展示",
     "en": "Shelving & Display"
+  },
+  "doors": {
+    "cn": "门窗制品",
+    "en": "Doors & Windows"
   }
 };
