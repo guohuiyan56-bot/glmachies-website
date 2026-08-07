@@ -147,19 +147,6 @@ window.CATALOGS = [
     "cover_en": "covers/dianzi_copy.webp",
     "pages": 97,
     "url": "https://9551bea98b07484089a1128f4783427c.bj8.agentos-app.net"
-  },
-  {
-    "id": "napkin",
-    "folder": "napkin",
-    "category": "textile",
-    "title_cn": "GREENLINE 全棉餐巾目录册",
-    "title_en": "COTTON NAPKIN CATALOGUE",
-    "desc_cn": "全棉餐巾 · 独花印花 · 坯布系列 · 酒店餐饮布草。",
-    "desc_en": "Cotton napkin · printed · greige series · hotel & restaurant linen.",
-    "cover_cn": "covers/napkin.webp",
-    "cover_en": "covers/napkin.webp",
-    "pages": 48,
-    "url": "https://646a9922d9e0459891197246736f1e23.bj6.agentos-app.net"
   }
 ];
 
@@ -179,9 +166,5 @@ window.CATALOG_CATS = {
   "doors": {
     "cn": "门窗制品",
     "en": "Doors & Windows"
-  },
-  "textile": {
-    "cn": "酒店布草",
-    "en": "Hotel Textile"
   }
 };
