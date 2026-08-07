@@ -105,7 +105,7 @@ window.CATALOGS = [
     "desc_cn": "高端铸铝精雕门板 · 别墅入户门花板系列 · 264 款雕刻工艺。",
     "desc_en": "High-end cast aluminum carved door panels · villa entrance door carving series · 264 designs.",
     "cover_cn": "covers/cast_aluminum.webp",
-    "cover_en": "covers/cast_aluminum.webp",
+    "cover_en": "covers/cast_aluminum_en.webp",
     "pages": 264,
     "url": "https://b2c9e64b26124303ab5b0d30e508820f.bj3.agentos-app.net"
   },
@@ -118,7 +118,7 @@ window.CATALOGS = [
     "desc_cn": "铜艺铸铝大门 · 罗马柱款式 · 精雕花板系列。",
     "desc_en": "Bronze & cast aluminum entrance doors · Roman column styles · carved panel series.",
     "cover_cn": "covers/junli.webp",
-    "cover_en": "covers/junli.webp",
+    "cover_en": "covers/junli_en.webp",
     "pages": 97,
     "url": "https://954672a899374d0d80cb71129c43f9e5.bj4.agentos-app.net"
   },
@@ -131,7 +131,7 @@ window.CATALOGS = [
     "desc_cn": "88/98 系列断桥铝平开纱窗一体 · 50 系列非断桥平开窗。",
     "desc_en": "88/98 series thermal-break tilt-turn casement windows with screen · 50 series non-thermal break windows.",
     "cover_cn": "covers/furuisi.webp",
-    "cover_en": "covers/furuisi.webp",
+    "cover_en": "covers/furuisi_en.webp",
     "pages": 24,
     "url": "https://9ec8e95081e24682a2a7cec49706c6ba.bj5.agentos-app.net"
   },
@@ -144,7 +144,7 @@ window.CATALOGS = [
     "desc_cn": "防盗安全门 · 精雕面板门 · 智能锁系列。",
     "desc_en": "Security entrance doors · carved panel doors · smart lock series.",
     "cover_cn": "covers/dianzi_copy.webp",
-    "cover_en": "covers/dianzi_copy.webp",
+    "cover_en": "covers/dianzi_copy_en.webp",
     "pages": 97,
     "url": "https://9551bea98b07484089a1128f4783427c.bj8.agentos-app.net"
   }
