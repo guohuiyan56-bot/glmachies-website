@@ -147,6 +147,30 @@ window.CATALOGS = [
     "cover_en": "covers/dianzi_copy_en.webp",
     "pages": 97,
     "url": "https://9551bea98b07484089a1128f4783427c.bj8.agentos-app.net"
+  },
+  {
+    "id": "lampcloth",
+    "folder": "lampcloth",
+    "category": "custom",
+    "title_cn": "广告灯布车贴彩页",
+    "title_en": "Advertising Banner & Vehicle Wrap Catalogue",
+    "desc_cn": "喷绘灯布 · 背喷灯布 · 灯箱车身贴 · PP 写真纸。",
+    "desc_en": "Flex banner · backlit banner · light box & vehicle wrap · PP banner.",
+    "cover_cn": "lampcloth/cover_cn.webp",
+    "cover_en": "lampcloth/cover_en.webp",
+    "pages": 48
+  },
+  {
+    "id": "displayqx",
+    "folder": "displayqx",
+    "category": "display",
+    "title_cn": "GREENLINE 展示器材 QX 目录册",
+    "title_en": "GREENLINE Display QX Catalogue",
+    "desc_cn": "GREENLINE 展示器材 QX 产品目录册（易拉宝 / X展架 / 海报架）。",
+    "desc_en": "GREENLINE display QX catalogue (roll-up / X banner / poster stands).",
+    "cover_cn": "displayqx/cover_cn.webp",
+    "cover_en": "displayqx/cover_en.webp",
+    "pages": 21
   }
 ];
 
