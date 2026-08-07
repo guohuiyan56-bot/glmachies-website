@@ -203,7 +203,9 @@
       + '<span class="pages">' + (c.pages || '?') + ' ' + t.pages + '</span></div>';
   }
   function cardHtml(c) {
-    return '<a class="card" href="' + c.folder + '/">'
+    var href = c.url || (c.folder + '/');
+    var ext = c.url ? ' target="_blank" rel="noopener"' : '';
+    return '<a class="card" href="' + href + '"' + ext + '>'
       + coverHtml(c)
       + '<div class="card-body">'
         + '<div class="card-title">' + (lang === 'en' ? (c.title_en || c.title_cn) : c.title_cn) + '</div>'
