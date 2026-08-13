@@ -108,54 +108,6 @@ window.CATALOGS = [
     "cover_cn": "aussieswitch/cover_cn.webp",
     "cover_en": "aussieswitch/cover_en.webp",
     "pages": 12
-  },
-  {
-    "id": "cast_aluminum",
-    "folder": "cast_aluminum",
-    "category": "doors",
-    "title_cn": "铸铝精雕门板图册",
-    "title_en": "Cast Aluminum Carved Door Panel Catalogue",
-    "desc_cn": "高端铸铝精雕门板 · 别墅入户门花板系列 · 264 款雕刻工艺。",
-    "desc_en": "High-end cast aluminum carved door panels · villa entrance door carving series · 264 designs.",
-    "cover_cn": "covers/cast_aluminum.webp",
-    "cover_en": "covers/cast_aluminum_en.webp",
-    "pages": 264
-  },
-  {
-    "id": "junli",
-    "folder": "junli",
-    "category": "doors",
-    "title_cn": "铜艺大门图册",
-    "title_en": "Bronze Entrance Door Catalogue",
-    "desc_cn": "铜艺铸铝大门 · 罗马柱款式 · 精雕花板系列。",
-    "desc_en": "Bronze & cast aluminum entrance doors · Roman column styles · carved panel series.",
-    "cover_cn": "covers/junli.webp",
-    "cover_en": "covers/junli_en.webp",
-    "pages": 97
-  },
-  {
-    "id": "furuisi",
-    "folder": "furuisi",
-    "category": "doors",
-    "title_cn": "断桥铝系统窗图册",
-    "title_en": "Thermal-Break Aluminum Windows Catalogue",
-    "desc_cn": "88/98 系列断桥铝平开纱窗一体 · 50 系列非断桥平开窗。",
-    "desc_en": "88/98 series thermal-break tilt-turn casement windows with screen · 50 series non-thermal break windows.",
-    "cover_cn": "covers/furuisi.webp",
-    "cover_en": "covers/furuisi_en.webp",
-    "pages": 24
-  },
-  {
-    "id": "dianzi_copy",
-    "folder": "dianzi_copy",
-    "category": "doors",
-    "title_cn": "防盗安全门图册",
-    "title_en": "Security Door Catalogue",
-    "desc_cn": "防盗安全门 · 精雕面板门 · 智能锁系列。",
-    "desc_en": "Security entrance doors · carved panel doors · smart lock series.",
-    "cover_cn": "covers/dianzi_copy.webp",
-    "cover_en": "covers/dianzi_copy_en.webp",
-    "pages": 97
   }
 ];
 
@@ -163,6 +115,5 @@ window.CATALOGS = [
 window.CATALOG_CATS = {
   machinery: { cn: '机械设备', en: 'Machinery' },
   shelves:   { cn: '货架展示', en: 'Shelving & Display' },
-  hardware:  { cn: '五金配件', en: 'Hardware' },
-  doors:     { cn: '门窗', en: 'Doors & Windows' }
+  hardware:  { cn: '五金配件', en: 'Hardware' }
 };
