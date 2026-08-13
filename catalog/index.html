@@ -203,9 +203,7 @@
       + '<span class="pages">' + (c.pages || '?') + ' ' + t.pages + '</span></div>';
   }
   function cardHtml(c) {
-    var href = c.url || (c.folder + '/');
-    var ext = c.url ? ' target="_blank" rel="noopener"' : '';
-    return '<a class="card" href="' + href + '"' + ext + '>'
+    return '<a class="card" href="' + c.folder + '/">'
       + coverHtml(c)
       + '<div class="card-body">'
         + '<div class="card-title">' + (lang === 'en' ? (c.title_en || c.title_cn) : c.title_cn) + '</div>'
@@ -287,16 +285,6 @@
     searchInput.placeholder = t.searchPlaceholder;
     searchInput.addEventListener('input', function () {
       searchQuery = this.value.trim();
-      render();
-    });
-  }
-
-  render();
-})();
-</script>
-</body>
-</html>
-chQuery = this.value.trim();
       render();
     });
   }
