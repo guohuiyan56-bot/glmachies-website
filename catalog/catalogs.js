@@ -38,27 +38,27 @@ window.CATALOGS = [
     "pages": 54
   },
   {
-    "id": "lianteng",
-    "folder": "lianteng",
+    "id": "bonrun",
+    "folder": "bonrun",
     "category": "machinery",
-    "title_cn": "包装机械目录册",
-    "title_en": "Packaging Machinery Catalogue",
-    "desc_cn": "灌装 · 旋盖 · 贴标 · 封口 · 真空包装 · 封箱 · 打码 · 分装 · 枕式包装",
-    "desc_en": "Filling · capping · labeling · sealing · vacuum packing · carton sealing · coding · dosing · pillow packaging",
-    "cover_cn": "lianteng/cover_cn.webp",
-    "cover_en": "lianteng/cover_en.webp",
+    "title_cn": "本润贸易 GREENLINE INT'L TRADING",
+    "title_en": "Bonrun Trade · GREENLINE INT'L TRADING",
+    "desc_cn": "本润贸易（广东）—— GREENLINE 进出口业务 · 全球海运、空运、整柜、拼柜、海外仓。广州｜香港｜东南亚｜中东｜非洲｜欧洲｜美洲。",
+    "desc_en": "Bonrun Trading (Guangdong) — GREENLINE import & export · ocean, air, FCL, LCL, overseas warehouse. Guangzhou / HK / SEA / ME / Africa / EU / Americas.",
+    "cover_cn": "bonrun/cover_cn.webp",
+    "cover_en": "bonrun/cover_en.webp",
     "pages": 37
   },
   {
-    "id": "machinery",
-    "folder": "machinery",
+    "id": "brick",
+    "folder": "brick",
     "category": "machinery",
     "title_cn": "制砖机产品目录册",
     "title_en": "Brick Machine Catalogue",
-    "desc_cn": "GREENLINE 制砖机械产品目录册，展示砖机设备与技术方案。",
-    "desc_en": "GREENLINE brick making machinery catalogue.",
-    "cover_cn": "machinery/cover_cn.webp",
-    "cover_en": "machinery/cover_en.webp",
+    "desc_cn": "KX 系列制砖机 · 自动液压成型机 · 平压机 · 凿岩锤 · 强制式搅拌机。全程一站式砖机供应与技术方案。",
+    "desc_en": "KX block machines · automatic hydraulic block making machines · paver presses · jackhammers · mixers. One-stop brick production solutions.",
+    "cover_cn": "brick/cover_cn.webp",
+    "cover_en": "brick/cover_en.webp",
     "pages": 33
   },
   {
@@ -84,6 +84,18 @@ window.CATALOGS = [
     "cover_cn": "autoparts/cover_cn.webp",
     "cover_en": "autoparts/cover_en.webp",
     "pages": 134
+  },
+  {
+    "id": "packaging_machine",
+    "folder": "packaging_machine",
+    "category": "machinery",
+    "title_cn": "包装机械产品目录册",
+    "title_en": "Packaging Machinery Catalogue",
+    "desc_cn": "灌装 · 旋盖 · 贴标 · 封口 · 真空包装 · 封箱 · 打码 · 分装 · 枕式包装",
+    "desc_en": "Filling · capping · labeling · sealing · vacuum packing · carton sealing · coding · dosing · pillow packaging",
+    "cover_cn": "packaging_machine/cover_cn.webp",
+    "cover_en": "packaging_machine/cover_en.webp",
+    "pages": 74
   },
   {
     "id": "packaging",
