@@ -1,8 +1,8 @@
 /* GREENLINE 站点数据（按品类从 greenlineint 源筛选生成） */
 var GT_DATA = {
   "company": {
-    "name_cn": "广州本润贸易公司",
-    "name_en": "Benrun Trading",
+    "name_cn": "GREENLINE 国际贸易",
+    "name_en": "GREENLINE International Trading",
     "slogan_cn": "一站式全球采购与供应链服务",
     "slogan_en": "One-Stop Global Sourcing & Supply Chain",
     "email": "info@greenlineint.com",
@@ -50,8 +50,8 @@ var GT_DATA = {
     "badge_en": "Trusted Globally · Professional Trading",
     "title_cn": "连接全球优质供应链\n<em>一站式</em>国际贸易解决方案",
     "title_en": "Connect to the World's Best\n<em>One-Stop</em> Trade Solutions",
-    "desc_cn": "广州本润贸易，专注工业机械、五金制品、仓储货架等设备出口，从选型到交付全程护航。",
-    "desc_en": "Benrun Trading specializes in industrial machinery, hardware and shelving equipment — full support from selection to delivery.",
+    "desc_cn": "GREENLINE，专注工业机械、五金制品、仓储货架等设备出口，从选型到交付全程护航。",
+    "desc_en": "GREENLINE International Trading specializes in industrial machinery, hardware and shelving equipment — full support from selection to delivery.",
     "cta_cn": "查看产品",
     "cta_en": "View Products",
     "contact_cn": "联系我们",
@@ -387,7 +387,7 @@ var GT_DATA = {
         "en": "OEM / ODM supported"
       }
     ],
-    "image": "images/factory-workshop.jpg"
+    "image": "images/factory-quality.jpg"
   },
   "services": {
     "title_cn": "全链条工业制造能力",
@@ -515,7 +515,7 @@ var GT_DATA = {
     "items": [
       {
         "stars": 5,
-        "text_cn": "合作三年，本润贸易的选品和质检团队非常专业，帮我们节省了大量时间和成本。强烈推荐！",
+        "text_cn": "合作三年，GREENLINE的选品和质检团队非常专业，帮我们节省了大量时间和成本。强烈推荐！",
         "text_en": "3 years of partnership — their sourcing and QC teams are incredibly professional. Saved us significant time and cost. Highly recommended!",
         "name": "James Chen",
         "role_cn": "采购总监 / 美国某连锁零售",
@@ -524,8 +524,8 @@ var GT_DATA = {
       },
       {
         "stars": 5,
-        "text_cn": "作为中东市场的建材进口商，我们需要可靠的供应商。本润帮我们找到了 3 家优质工厂，品质非常稳定。",
-        "text_en": "As a building materials importer in the Middle East, we needed reliable suppliers. Benrun found us 3 excellent factories with consistent quality.",
+        "text_cn": "作为中东市场的建材进口商，我们需要可靠的供应商。GREENLINE帮我们找到了 3 家优质工厂，品质非常稳定。",
+        "text_en": "As a building materials importer in the Middle East, we needed reliable suppliers. GREENLINE found us 3 excellent factories with consistent quality.",
         "name": "Ahmed Al-Rashid",
         "role_cn": "CEO / 迪拜建材集团",
         "role_en": "CEO / Dubai Building Materials Group",
@@ -604,15 +604,15 @@ var GT_DATA = {
     ]
   },
   "footer": {
-    "about_cn": "广州本润贸易公司 — 值得信赖的一站式工业设备采购平台。自 2015 年成立以来，已服务 200+ 国际客户，覆盖工业机械、五金制品、仓储货架等品类。",
-    "about_en": "Benrun Trading — Your trusted one-stop industrial equipment sourcing platform. Since 2015, we have served 200+ international clients across machinery, hardware and shelving.",
+    "about_cn": "GREENLINE 国际贸易 — 值得信赖的一站式工业设备采购平台。自 2015 年成立以来，已服务 200+ 国际客户，覆盖工业机械、五金制品、仓储货架等品类。",
+    "about_en": "GREENLINE International Trading — Your trusted one-stop industrial equipment sourcing platform. Since 2015, we have served 200+ international clients across machinery, hardware and shelving.",
     "quick_links_cn": "快速链接",
     "quick_links_en": "Quick Links",
     "categories_cn": "产品分类",
     "categories_en": "Categories",
     "contact_cn": "联系方式",
     "contact_en": "Contact",
-    "copy_cn": "© 2025 广州本润贸易有限公司. 版权所有.",
-    "copy_en": "© 2025 Benrun Trading. All rights reserved."
+    "copy_cn": "© 2025 GREENLINE有限公司. 版权所有.",
+    "copy_en": "© 2025 GREENLINE International Trading. All rights reserved."
   }
 };
