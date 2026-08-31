@@ -53,10 +53,10 @@ window.CATALOGS = [
   {
     "folder": "shandong-bochuang",
     "category": "machinery",
-    "title_cn": "山东博创产品画册",
-    "title_en": "SHANDONG BOCHUANG CATALOGUE",
-    "desc_cn":  "山东博创产品图鉴 — 整线设备与定制化方案，含技术参数与典型案例。",
-    "desc_en":  "Shandong Bochuang product guide — turnkey equipment & custom solutions, with technical specs and case studies.",
+    "title_cn": "整线设备产品画册",
+    "title_en": "TURNKEY EQUIPMENT CATALOGUE",
+    "desc_cn":  "整线设备图鉴 — 含技术参数与典型案例，覆盖食品、日化、建材等行业。",
+    "desc_en":  "Turnkey production line equipment — with technical specs and case studies, covering food, cosmetics and building materials industries.",
     "pages": 31,
     "cover_cn": "./shandong-bochuang/cover_cn.png",
     "cover_en": "./shandong-bochuang/cover_en.png"
